@@ -1,0 +1,147 @@
+
+#Hero-Section1{
+    background: linear-gradient(300deg, #23BBCF, #3798A5, #3D737A);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+}
+
+  
+h1{
+    
+    padding-top: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.h2-hero{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+
+}
+
+.span-hero {
+    color: yellow;
+    text-decoration: underline;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+* {
+	margin: 0;
+	padding: 0;
+}
+.hero2 {
+	height: 100vh;
+	background: linear-gradient(45deg, rgba(255,175,189,.7), rgba(100,216,243,.7), rgba(234,236,198,.7), rgba(245,146,176,.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, url(https://picsum.photos/g/2000/1200?image=443) 0 0 / cover no-repeat;
+	-webkit-animation: gradientAnimation 40s ease infinite;
+	animation: gradientAnimation 40s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+@keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+
+#image-myself{
+  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px;
+        border-radius: 50%;
+      
+
+}
+
+#body{
+    text-align: center;
+}
+
+
+.h2-hero-2{
+    color: black;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.p-hero1{
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.div-hero-section2{
+    padding-top: 30px;
+}
+
+h3{
+    padding-bottom: 8px;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+ul{
+    display:inline-block;
+    width:18%;
+    text-align: justify;
+    color: black;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 200px;
+    
+}
+
+.span-li{
+    
+    color: white;
+}
+
+.udemy{
+    padding-top: 30px;
+    padding-left: 3px;
+}
+
+.a-udemy{
+
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: black;
+}
+
+.flex-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .flex-container > div {
+    
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .span-I {
+    color: yellow;
+  }
+
